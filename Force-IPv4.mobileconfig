@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>everywhere</string>
+					<key>Password</key>
+					<string>secure</string>
+					<key>Username</key>
+					<string>eesecure</string>
+				</dict>
+			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>1</integer>
+				<key>Name</key>
+				<string>everywhere</string>
+				<key>Password</key>
+				<string>secure</string>
+				<key>Username</key>
+				<string>eesecure</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures cellular data settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Cellular</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.cellular.57092FDB-C706-4F3B-9049-2DA05D822315</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>57092FDB-C706-4F3B-9049-2DA05D822315</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Profile to force IPv4 for EE Signal boxes</string>
+	<key>PayloadDisplayName</key>
+	<string>Force-IPv4</string>
+	<key>PayloadIdentifier</key>
+	<string>Coded-Pixel-Ltd.IPv4.V1.0</string>
+	<key>PayloadOrganization</key>
+	<string>Coded Pixel Ltd</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>AD2D7045-CF2E-4FBF-8DDE-A22D2693906A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
